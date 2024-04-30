@@ -78,7 +78,7 @@ def profile(request, username):
     template = 'blog/profile.html'
     user = get_object_or_404(User, username=username)
     posts_list = (
-        Post.objects.filter(author=user)
+        user.posts
         .annotate(comment_count=Count('comments'))
         .order_by('-pub_date')
     )
