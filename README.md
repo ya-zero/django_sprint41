@@ -27,10 +27,10 @@
 git clone https://github.com/sergeytsepilov-dev/django_sprint4.git
 ```
 
-2. Переход в директорию django_sprint3
+2. Переход в директорию django_sprint4
 
 ```
-cd django_sprint3
+cd django_sprint4
 ```
 
 3. Создание виртуального окружения
